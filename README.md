@@ -8,12 +8,17 @@ MonitoringbyPing requires [Python](https://www.python.org/downloads/) v3.5+ to r
 
 ```py
 $ cd MonitoringbyPing
-$ python setup.py test
+$ pip install -r requirements.txt
+$ python setup.py test #run all test cases
 $ python setup.py install
+```
+### Configuration
+```py
+$ cd monitoringbyping
+# edit host_info and config.json file to add email server and host ip infos
 ```
 
 #### Execute/Run
 ```py
-$ cd MonitoringbyPing
 $ python run.py
 ```
