@@ -1,0 +1,13 @@
+{
+  "server_config" : [
+    {
+      "username": "xyz@zimba.org",
+      "password": "Dopa",
+      "server": "smtp.office365.com",
+      "smtp_port":587,
+      "email_from":"xyz@zimba.org",
+      "email_to":"xyz@zimba.org",
+      "subject":"Ping Monitoring Update"
+    }
+  ]
+}
